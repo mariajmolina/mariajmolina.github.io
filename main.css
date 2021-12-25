@@ -2,6 +2,9 @@
   position: relative;
   min-height: 100vh;
   background-image: url('image-from-rawpixel-id-555802.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #content-wrap {
