@@ -8,5 +8,5 @@ body {
   padding: 50px;
   border: thin solid black;
   background-color: #FFFFFF;
-  font-family: $sans-serif-narrow;
+  font-family: sans-serif;
 }
