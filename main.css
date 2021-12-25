@@ -1,6 +1,7 @@
 #page-container {
   position: relative;
   min-height: 100vh;
+  background-image: url('image-from-rawpixel-id-555802.jpg');
 }
 
 #content-wrap {
