@@ -3,10 +3,9 @@ body {
 }
 
 .content {
-  width: 500px;
+  width: 50px;
   margin: auto;
   padding: 50px;
-  border: thin solid black;
   background-color: #FFFFFF;
   font-family: sans-serif;
 }
