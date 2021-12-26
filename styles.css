@@ -7,3 +7,16 @@ body {
   background-color: #FFFFFF;
   font-family: sans-serif;
 }
+
+.researchlogo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    padding: 10px;
+}
+
+#images{
+   text-align:center;
+}
+
