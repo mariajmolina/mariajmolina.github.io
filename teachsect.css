@@ -1,0 +1,88 @@
+#teachtext {
+    max-width:60%;
+    margin-left:20%;
+    text-align:left;
+    font-weight:lighter;
+    font-size:20px;
+    line-height:220%;
+    font-family:sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* For mobile phones: */
+  #teachtext {
+      max-width:80%;
+      margin-left:10%;
+      font-size:18px;
+      line-height:210%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #teachtext {
+      max-width:80%;
+      margin-left:10%;
+      font-size:14px;
+      line-height:200%;
+  }
+}
+
+
+
+#teachtitle {
+    text-align:center;
+    font-weight:lighter;
+    font-size:40px;
+    padding-top:80px;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    /* Tablet: */
+  #teachtitle {
+      font-size:30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #teachtitle {
+      font-size:20px;
+      font-weight:bold;
+  }
+}
+
+
+
+#teachscroll {
+    overflow:scroll;
+    text-align:left;
+    font-weight:lighter;
+    font-size:16px;
+    height:300px;
+    max-width:50%;
+    margin-left:25%;
+    line-height:150%;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    /* Tablet: */
+    #teachscroll {
+        max-width:70%;
+        margin-left:15%;
+        font-size:14px;
+        line-height:160%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #teachscroll {
+      max-width:80%;
+      margin-left:10%;
+      font-size:12px;
+      line-height:170%;
+  }
+}
