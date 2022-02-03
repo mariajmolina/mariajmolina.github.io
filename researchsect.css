@@ -1,0 +1,122 @@
+#researchtext {
+    max-width:60%;
+    margin-left:20%;
+    text-align:center;
+    font-weight:lighter;
+    font-size:20px;
+    line-height:220%;
+    font-family:sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* For mobile phones: */
+  #researchtext {
+      max-width:80%;
+      margin-left:10%;
+      font-size:18px;
+      line-height:210%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #researchtext {
+      max-width:80%;
+      margin-left:10%;
+      font-size:14px;
+      line-height:200%;
+  }
+}
+
+
+
+#researchtitle {
+    text-align:center;
+    font-weight:bold;
+    font-size:40px;
+    padding-top:80px;
+    font-family:sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* For mobile phones: */
+  #researchtitle {
+      font-size:30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #researchtitle {
+      font-size:20px;
+      padding: 0% 5%;
+  }
+}
+
+
+
+#researchimage {
+    display:inline-block;
+    text-align:center;
+    max-width:15%;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    /* For mobile phones: */
+    #researchimage {
+        max-width:30%;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #researchimage {
+      max-width:50%;
+  }
+}
+
+
+
+#mdimage {
+    display:inline-block;
+    text-align:center;
+    max-width:10%;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* For mobile phones: */
+  #mdimage {
+      max-width:20%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #mdimage {
+      max-width:30%;
+  }
+}
+
+
+
+#umdimage {
+    display:inline-block;
+    text-align:center;
+    max-width:30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* For mobile phones: */
+  #umdimage {
+      max-width:50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #umdimage {
+      max-width:80%;
+  }
+}

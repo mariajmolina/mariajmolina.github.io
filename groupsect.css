@@ -1,0 +1,114 @@
+#grouptext {
+    max-width:60%;
+    margin-left:20%;
+    text-align:left;
+    font-weight:lighter;
+    font-size:20px;
+    line-height:220%;
+    font-family:sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* Tablet */
+  #grouptext {
+      max-width:80%;
+      margin-left:10%;
+      font-size:18px;
+      line-height:210%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #grouptext {
+      max-width:80%;
+      margin-left:10%;
+      font-size:14px;
+      line-height:200%;
+  }
+}
+
+
+
+#groupname {
+    max-width:60%;
+    margin-left:20%;
+    text-align:left;
+    font-weight:bold;
+    font-size:20px;
+    line-height:220%;
+    font-family:sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* Tablet */
+  #groupname {
+      max-width:80%;
+      margin-left:10%;
+      font-weight:bold;
+      font-size:18px;
+      line-height:180%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #groupname {
+      max-width:80%;
+      margin-left:10%;
+      font-weight:normal;
+      font-size:14px;
+      line-height:180%;
+  }
+}
+
+
+
+#grouptitle {
+    text-align:center;
+    font-weight:lighter;
+    font-size:40px;
+    padding-top:80px;
+    font-family:sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    /* Tablet: */
+    #grouptitle {
+    font-size:30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #grouptitle {
+    font-size:20px;
+    font-weight:bold;
+  }
+}
+
+
+
+
+#grouppic {
+    float:left;
+    width:15%;
+    margin-left:20%;
+    margin-right:10px;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    /* For mobile phones: */
+    #grouppic {
+        width:25%;
+        margin-left:10%;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #grouppic {
+      width:35%;
+      margin-left:10%;
+  }
+}

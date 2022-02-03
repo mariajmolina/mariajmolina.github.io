@@ -1,8 +1,36 @@
-body {
-  background-color: #FFFFFF;
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
-.content {
-  background-color: #FFFFFF;
-  font-family: sans-serif;
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  /* background: #3B5998;  */
+  background: #000000;
+  color: white;
+}
+
+.fa-twitter {
+  /* background: #55ACEE; */
+  background: #000000;
+  color: white;
+}
+
+.fa-linkedin {
+  /* background: #007bb5; */
+  background: #000000;
+  color: white;
+}
+
+.fa-instagram {
+  /* background: #125688; */
+  background: #000000;
+  color: white;
 }

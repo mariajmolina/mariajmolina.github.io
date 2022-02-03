@@ -1,0 +1,64 @@
+#page-container {
+  width: inherit;
+  background-image: url('imageedit_2_2786842543.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% auto;  /* first value: width of the image, second value: height */
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+
+
+#footer {
+  position: fixed;
+  margin-top: 20px; /* space between content and footer */
+  padding-top: 20px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;            /* Footer height */
+  background: black;
+  left: 0px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 0.75vw;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  #footer {
+    height: 5vw;
+    font-size: 1.75vw;
+    padding-top: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #footer {
+    height: 5vw;
+    font-size: 2.5vw;
+    padding-top: 2vw;
+  }
+}
+
+
+
+#horzline {
+    max-width:60%;
+    text-align:center;
+    height:1px;
+    margin-bottom:30px
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  #horzline {
+    max-width:75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #horzline {
+    max-width:80%;
+  }
+}

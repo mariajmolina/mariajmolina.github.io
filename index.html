@@ -1,25 +1,247 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <title>Molina Group</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="icon" href="cloud-umd.png">
-  </head>
+    
+<head>
+      
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+  <title>Molina Group</title>
+  <link rel="icon" href="cloud-umd.png">
+    
+  <!-- style imports -->
   
-  <body>
-    <div class="content">
-      <div class="panel panel-primary" style="text-align: center" style="border: 1px solid black">
-        <div class="panel-header" style="text-align: center">
-          <h1>Welcome!</h1>
-        </div>
-        <div class="panel-body" style="text-align: center">
-          <p>Changes are coming soon! As a result, this page is currently under construction.</p>
-          <p><img src="UMD_CMNS_AOS_S1_Color_3.png" width="400" /></p>
-        </div>
-        <div class="panel-footer" style="text-align: center">
-          <footer> Copyright &copy; Maria J. Molina 2022</footer>
-        </div>
-      </div>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="stylesheet" type="text/css" href="navbar.css" />
+  <link rel="stylesheet" type="text/css" href="researchsect.css" />
+  <link rel="stylesheet" type="text/css" href="groupsect.css" />
+  <link rel="stylesheet" type="text/css" href="publicationsect.css" />
+  <link rel="stylesheet" type="text/css" href="teachsect.css" />
+  <link rel="stylesheet" type="text/css" href="newsect.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/academicons.min.css"/>
+    
+</head>
+
+<body>
+    
+  <div id="page-container">
+    
+    <a name="home"><img src="G17_fd_GEOCOLOR_12fr_20211225-2327.jpg" width=100% height=auto/></a>
+    
+    <!-- NAVBAR -->
+    
+    <div class="topnav" id="myTopnav">
+        
+      <a href="#home" style="margin-right:5vw"><img src="cloud-umd-copy.png" width="25" /></a></li>
+      <a href="#news">News</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#publications">Publications</a>
+      <a href="#group">Group</a>
+      <a href="#research">Research</a>
+      
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      
     </div>
-  </body>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+        
+    <div style="text-align:center"><img id="umdimage" border="0" alt="UMD" src="UMD_CMNS_AOS_S1_Color_3.png"/></a></div>
+      
+      
+    <!-- RESEARCH SECTION -->
+      
+    <hr id="horzline">
+    <p style="text-align:center"><a name="research" id="researchtitle">Data Science for Climate and Extremes</a></p>
+          
+    <div style="text-align:center"><img id="researchimage" border="0" alt="MRG" src="logo-nobackground-5000.png"/></a></div>
+              
+    <p id="researchtext">
+      Welcome! My name is Dr. Maria J. Molina (she/her) and I am thrilled to share that my research group is launching this upcoming Fall 2022! Our research will focus on the application of machine learning tools (e.g. neural networks) and numerical modeling systems (e.g. CESM) to answer pressing questions in the domains of climate and extremes. Examples of problems that we will be tackling include the following:
+    </p>
+              
+    <div id="researchtext">&#9729; extending Earth system prediction,</div>
+    <div id="researchtext">&#9729; understanding genesis of extremes, and</div>
+    <div id="researchtext">&#9729; uncovering multi-scale patterns in the climate system.</div>
+              
+    <p id="researchtext">Our research will also strive to incorporate open-source software and data, accessible communication, multi-discipline collaboration, and stakeholder engagement.
+    </p>
+            
+
+    <!-- GROUP SECTION -->
+            
+    <hr id="horzline">
+    <p style="text-align:center"><a name="group" id="grouptitle">Group</a></p>
+            
+    <p><img src="molina_headshot.jpeg" alt="Dr. Maria J. Molina" id="grouppic"></p>
+                
+    <p id="groupname">Dr. Maria J. Molina, Assistant Professor</p>
+            
+    <p id="grouptext">
+      This Fall 2022, I will be joining the University of Maryland in College Park as an Assistant Professor within the Department of Atmospheric and Oceanic Science. Currently, I am a Project Scientist at the National Center for Atmospheric Research (NCAR) in Boulder, Colorado, which is an affiliation that I will continue to hold as a faculty member. I am also an Adjunct Assistant Professor within the Department of Marine, Earth, and Atmospheric Sciences at North Carolina State University. I am Co-Chair of the AMS Early Career Leadership Academy, am a member of the AMS Board on Representation, Accessibility, Inclusion, and Diversity (BRAID), and serve as an Academia Ambassador for the AMS Committee for Hispanic and Latinx Advancement (CHALA). <span style="font-weight:bold">[CV]</span>
+      <a href="https://scholar.google.com/citations?user=COEg9-sAAAAJ&hl=en&oi=sra"><i class="fa fa-graduation-cap" aria-hidden="true" style="color:#000000;margin-right:0px"></i></a>
+      <a href="https://github.com/mariajmolina"><i class="fa fa-github" class="card" style="color:#000000;margin-left:-10px"></i></a>
+    </p>
+    
+    
+    <!-- PUBLICATIONS SECTION -->
+            
+    <hr id="horzline">
+    <p style="text-align:center"><a name="publications" id="pubtitle">Publications</a></p>
+            
+    <p id="publicationtext">
+          &#9729; Peer-Reviewed Journal Publications (group members in <span style="font-weight:bold">bold</span>)
+    </p>
+            
+    <p id="publicationtext">
+        [14.] Morales, A., <span style="font-weight:bold">M. J. Molina</span>, J. E. Trujillo-Falcón, A. L. Lang, B. S. Barrett, L. Aviles, S. J. Camargo, K. M. Nuñez Ocasio, C. Bieri, and E. Murillo (In Preparation); Hispanic and Latinx Academics and Researchers in the Atmospheric Sciences: the People, the Challenges, and the Future. Bulletin of the American Meteorological Society.
+    </p>
+            
+    <p id="publicationtext">
+        [13.] Yeager, S., N. Rosenbloom, S. Glanville, X. Wu, I. Simpson, H. Li, <span style="font-weight:bold">M. J. Molina</span>, K. Krumhardt, S. Mogen, K. Lindsay, D. Lombardozzi, W. Wieder, W. Kim, J. Richter, M. Long, G. Danabasoglu, D. Bailey, M. Holland, N. Lovenduski, and J. Tribbia (In Preparation); The Seasonal-to-Multiyear Large Ensemble (SMYLE): A Multiyear Prediction System using the Community Earth System Model Version 2. Geoscientific Model Development.
+    </p>
+            
+    <p id="publicationtext">
+        [12.] Tye, M. R., K. Dagon, <span style="font-weight:bold">M. J. Molina</span>, J. H. Richter, D. Visioni, B. Kravitz, C. Tebaldi, and S. Tilmes (In Preparation); Indices of Extremes: Geographic patterns of change in extremes and associated vegetation impacts under climate intervention. Atmospheric Chemistry and Physics.
+    </p>
+            
+    <p id="publicationtext">
+        [11.] Morales, A., L. Medina Luna, D. Zietlow, J. E. LeBeau, and <span style="font-weight:bold">M. J. Molina</span> (Under Review); Engaging an Adult Spanish-Speaking Hispanic and Latinx Audience: Testing the Impact of Communication Styles on Inclusion, Accessibility, Learning, and Interest. Journal of Geoscience Education.
+    </p>
+            
+    <p id="publicationtext">
+        [10.] <span style="font-weight:bold">Molina, M. J.</span>, A. Hu, and G. A. Meehl (2022). Response of Global SSTs and ENSO to the Atlantic and Pacific Meridional Overturning Circulations. Journal of Climate. <a href="https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-21-0172.1/JCLI-D-21-0172.1.xml" style="color:#000000">[Link]</a>
+    </p>
+            
+    <p id="publicationtext">
+        [9.] <span style="font-weight:bold">Molina, M. J.</span>, D. J. Gagne, and A. F. Prein (2021). A benchmark to test generalization capabilities of deep learning methods to classify severe convective storms in a changing climate. Earth and Space Science. <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020EA001490" style="color:#000000">[Link]</a>
+    </p>
+            
+    <p id="publicationtext">
+        [8.] Hu, A., G. A. Meehl, N. Rosenbloom, <span style="font-weight:bold">M. J. Molina</span>, and G. Strand (2021). The influence of variability in meridional overturning on global ocean circulation. Journal of Climate. <a href="https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-21-0119.1/JCLI-D-21-0119.1.xml?tab_body=abstract-display" style="color:#000000">[Link]</a>
+    </p>
+            
+    <p id="publicationtext">
+        [7.] Poujol, B., A. F. Prein, <span style="font-weight:bold">M. J. Molina</span>, and C. Muller (2021). Dynamic and thermodynamic impacts of climate change on organized convection in Alaska. Climate Dynamics, 1-25. <a href="https://link.springer.com/article/10.1007/s00382-020-05606-7" style="color:#000000">[Link]</a>
+    </p>
+            
+    <p id="publicationtext">
+        [6.] <span style="font-weight:bold">Molina, M. J.</span>, J. T. Allen, and A. F. Prein (2020). Moisture Attribution and Sensitivity Analysis of a Winter Tornado Outbreak. Weather and Forecasting, 35(4), 1263-1288. <a href="https://journals.ametsoc.org/view/journals/wefo/35/4/wafD190240.xml" style="color:#000000">[Link]</a>
+    </p>
+
+    <p id="publicationtext">
+        [5.] <span style="font-weight:bold">Molina, M. J.</span>, and J. T. Allen (2020). Regionally-stratified tornadoes: Moisture source physical reasoning and climate trends. Weather and Climate Extremes, 28, 100244. <a href="https://www.sciencedirect.com/science/article/pii/S2212094719301781" style="color:#000000">[Link]</a>
+    </p>
+
+    <p id="publicationtext">
+        [4.] <span style="font-weight:bold">Molina, M. J.</span>, and J. T. Allen (2019). On the moisture origins of tornadic thunderstorms. Journal of Climate, 32(14), 4321-4346. <a href="https://journals.ametsoc.org/view/journals/clim/32/14/jcli-d-18-0784.1.xml" style="color:#000000">[Link]</a>
+    </p>
+
+    <p id="publicationtext">
+        [3.] <span style="font-weight:bold">Molina, M. J.</span>, J. T. Allen, and V. A. Gensini (2018). The Gulf of Mexico and ENSO influence on subseasonal and seasonal CONUS winter tornado variability. Journal of Applied Meteorology and Climatology, 57(10), 2439-2463. <a href="https://journals.ametsoc.org/view/journals/apme/57/10/jamc-d-18-0046.1.xml" style="color:#000000">[Link]</a>
+    </p>
+
+    <p id="publicationtext">
+        [2.] Allen, J. T., <span style="font-weight:bold">M. J. Molina</span>, and V. A. Gensini (2018). Modulation of annual cycle of tornadoes by El Niño–Southern Oscillation. Geophysical Research Letters, 45(11), 5708-5717. <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018GL077482" style="color:#000000">[Link]</a>
+    </p>
+
+    <p id="publicationtext">
+        [1.] <span style="font-weight:bold">Molina, M. J.</span>, R. P. Timmer, and J. T. Allen (2016). Importance of the Gulf of Mexico as a climate driver for US severe thunderstorm activity. Geophysical Research Letters, 43(23), 12-295. <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016GL071603" style="color:#000000">[Link]</a>
+    </p>
+            
+    <p id="publicationtext">&#9729; Other Technical and Concept Papers</p>
+            
+    <p id="publicationtext">
+        [5.] <span style="font-weight:bold">Molina, M. J.</span>, T. A. O’Brien, G. Anderson, M. Ashfaq, K. E. Bennett, W. Collins, S. Collis, K. Dagon, S. Klein, J. M. Restrepo, and P. A. Ullrich, (In Preparation); Climate Variability and Extremes Chapter for DOE AI for Earth System Predictability Workshop Report.
+    </p>
+            
+    <p id="publicationtext">
+        [4.] Dagon, K., <span style="font-weight:bold">M. J. Molina</span>, G. A. Meehl, J. H. Richter, E. A. Barnes, J. Berner, J. M. Caron, W. Chapman, G. Danabasoglu, D. J. Gagne, S. Glanville, S. E. Haupt, A. Hu, Z. Martin, K. Mayer, K. Pegion, K. Raeder, I. Simpson, A. Subramanian, and S. Yeager (2021). Machine learning to extend and understand the sources and limits of water cycle predictability on subseasonal-to-decadal timescales in the Earth system. DOE Concept Papers to Advance an Integrative Artificial Intelligence Framework for Earth System Predictability: AI4ESP. <a href="https://ai4esp.org/files/AI4ESP1032_Dagon_Katherine.pdf" style="color:#000000">[Link]</a>
+    </p>
+                
+    <p id="publicationtext">
+        [3.] Ahmed, N., M. Slipski, I. Venzor-Cardenas, <span style="font-weight:bold">M. J. Molina</span>, G. Senay, M. Cheung, C. Tillier, S. Edgington, and G. Renard (2020). Leveraging Lightning with Convolutional Recurrent AutoEncoder and ROCKET for Severe Weather Detection. Thirty-fourth Conference on Neural Information Processing Systems (NeurIPS 2020), AI4EARTH. <a href="https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_16.pdf" style="color:#000000">[Link]</a>
+    </p>
+            
+    <p id="publicationtext">
+        [2.] Slipski, M, I. Venzor-Cardenas, <span style="font-weight:bold">M. J. Molina</span>, N. Ahmed, M. Cheung, C. Tillier, S. Edgington, and G. Renard (2020).  Predicting severe thunderstorms with machine learning and the Geostationary Lightning Mapper. Frontier Development Lab Technical Memorandum. <a href="https://drive.google.com/file/d/1v0dQenE5MqKmKZjIrh_rYfbnaX-6mQjd/view" style="color:#000000">[Link]</a>
+    </p>
+                
+    <p id="publicationtext">
+        [1.] <span style="font-weight:bold">Molina, M. J.</span>, J. T. Allen, and V. A. Gensini (2018). Gulf of Mexico influence on sub-seasonal and seasonal severe thunderstorm frequency. NOAA Climate Prediction S&T Digest: National Weather Service science & technology infusion climate bulletin supplement, 42-45. <a href="https://repository.library.noaa.gov/view/noaa/17399" style="color:#000000">[Link]</a>
+    </p>
+            
+            
+    <!-- TEACHING SECTION -->
+            
+    <hr id="horzline">
+    <p style="text-align:center"><a name="teaching" id="teachtitle">Teaching</a></p>
+    
+    <p id="teachtext">
+        In addition to research check-ins and discussions, our research group will set time aside for soft-skills training. Studies have shown that career success can be attributed to soft-skills by as much as 75%! Biweekly meetings will be held to help address this critically important training, along with other needed skills for graduate school.
+    </p>
+            
+    <div id="teachscroll">
+    <div style="font-weight:bold">Fall Semester 2022</div>
+    <div>[Sep. 7] UMD graduate school path: what do you need to do to graduate?</div>
+    <div>[Sep. 21] Scholarship, grant, fellowship, and visiting opportunities</div>
+    <div>[Oct. 5] Open science (software and data practices)</div>
+    <div>[Oct. 19] Professional enrichment workshops and opportunities</div>
+    <div>[Nov. 2] Award winning presentations and posters</div>
+    <div>[Nov. 16] Importance of being kind in science</div>
+    <div>[Nov. 30] Building a website</div>
+    
+    <div style="font-weight:bold">Spring Semester 2023</div>
+    <div>[Feb. 1] Time management and productive procrastination</div>
+    <div>[Feb. 15] Your online professional presence and social media</div>
+    <div>[Mar. 1] Where to publish? And predatory journals</div>
+    <div>[Mar. 15] Surviving peer review</div>
+    <div>[Mar. 29] Formatting your CV</div>
+    <div>[Apr. 12] Importance of professional networks</div>
+    <div>[Apr. 26] Service in academia (UMD, AMS, AGU, and other opportunities)</div>
+    <div>[May 10] DEI and being an advocate and ally</div>
+    </div>
+            
+            
+    <!-- NEWS SECTION -->
+    
+    <hr id="horzline">
+    <p style="text-align:center"><a name="news" id="newstitle">News</a></p>
+    
+    <p id="newstext">
+      &#9729; [January 2022] UMD AOSC PhD student, Jhayron Steven Perez Carrasquilla, will be joining our research group this coming Fall 2022!
+    </p>
+    
+    
+    <!-- END -->
+            
+    <hr id="horzline">
+            
+    <div style="text-align:center">
+    <a href="https://www.linkedin.com/in/sciencebymaria/" class="fa fa-linkedin" style="margin-bottom:10px;background-color:#000000"></a> <a href="https://www.facebook.com/ScienceByMaria" class="fa fa-facebook" style="margin-bottom:10px;background-color:#000000"></a> <a href="https://twitter.com/ScienceByMaria" class="fa fa-twitter" style="margin-bottom:10px;background-color:#000000"></a> <a href="https://www.instagram.com/sciencebymaria/" class="fa fa-instagram" style="margin-bottom:10px;background-color:#000000"></a>
+    </div>
+            
+    <div style="text-align:center">
+    <img id="mdimage" border="0" alt="MRG" src="1200px-Maryland_Terrapins_logo.png" style="margin-bottom:80px"/></a>
+    </div>
+          
+    <footer id="footer" style="text-align:center">Copyright &copy; Maria J. Molina 2022</footer>
+      
+  </div>
+      
+</body>
+  
 </html>
