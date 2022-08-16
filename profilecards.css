@@ -1,0 +1,148 @@
+#marginblock {
+    margin-left:15%;
+    margin-right:10%;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* Tablet */
+  #marginblock {
+      margin-left:10%;
+      margin-right:5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #marginblock {
+      margin-left:5%;
+      margin-right:2.5%;
+  }
+}
+
+
+
+#profilecard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: 20px;
+  text-align: center;
+  font-family:sans-serif;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 900px) {
+  /* Tablet */
+  #profilecard {
+      max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* Tablet */
+  #profilecard {
+      max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #profilecard {
+      max-width: 250px;
+  }
+}
+
+
+
+#profiletitle {
+  color: grey;
+  font-size: 18px;
+  font-family:sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* Tablet */
+  #profiletitle {
+      font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #profiletitle {
+      font-size: 16px;
+      font-weight: normal;
+  }
+}
+
+
+
+#profilecardname {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-family:sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* Tablet */
+  #profilecardname {
+      font-size: 18px;
+      font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #profilecardname {
+      font-size: 18px;
+      font-weight: normal;
+  }
+}
+
+
+#profilebio {
+  color: black;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height:150%;
+  padding-left:10px;
+  padding-right:10px;
+  height:66%;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  /* Tablet */
+  #profilebio {
+      font-size: 15px;
+      line-height:160%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #profilebio {
+      font-size: 14px;
+      line-height:180%;
+  }
+}
+
+
+#profilebutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  max-width: 300px;
+}
+
+#profilebutton:hover {
+  opacity: 0.7;
+}
+
