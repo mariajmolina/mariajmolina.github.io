@@ -35,7 +35,7 @@
     font-weight:lighter;
     font-size:40px;
     padding-top:80px;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
 @media only screen and (max-width: 900px) and (min-width: 600px) {
@@ -50,5 +50,38 @@
   #newstitle {
       font-size:20px;
       font-weight:bold;
+  }
+}
+
+
+#newsscroll {
+    overflow:scroll;
+    text-align:left;
+    font-weight:lighter;
+    font-size:16px;
+    height:300px;
+    max-width:50%;
+    margin-left:25%;
+    line-height:150%;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    /* Tablet: */
+    #newsscroll {
+        max-width:70%;
+        margin-left:15%;
+        font-size:14px;
+        line-height:160%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  #newsscroll {
+      max-width:80%;
+      margin-left:10%;
+      font-size:12px;
+      line-height:170%;
   }
 }
