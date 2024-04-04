@@ -58,7 +58,7 @@
 #researchimage {
     display:inline-block;
     text-align:center;
-    max-width:15%;
+    max-width:30%;
 }
 
 @media only screen and (max-width: 900px) and (min-width: 600px) {
