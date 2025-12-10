@@ -1,10 +1,36 @@
+/* main.css */
+
+body {
+  margin: 0;
+  background-color: #ffffff; /* was #000000 */
+}
+
 #page-container {
+  width: inherit;
+  position: relative;
+  z-index: 1;
+}
+
+/* full-screen background canvas */
+#neural-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+/*#page-container {
   width: inherit;
   background-image: url('imageedit_2_2786842543.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% auto;  /* first value: width of the image, second value: height */
-}
+/*}*/
+
 
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
@@ -61,4 +87,16 @@
   #horzline {
     max-width:80%;
   }
+}
+
+
+.content-overlay {
+  width: 80%;
+  max-width: 90%;                 /* width of the “panel” */
+  margin: 40px auto 80px auto;       /* center it, add top/bottom spacing */
+  padding: 40px 30px;                /* inner padding for text */
+  background: rgba(255, 255, 255, 0.85); /* white with transparency */
+  border-radius: 16px;               /* rounded corners (optional) */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08); /* soft shadow (optional) */
+  box-sizing: border-box;
 }

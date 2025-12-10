@@ -28,6 +28,9 @@
 
 <body>
     
+  <!-- interactive neural-network background -->
+  <canvas id="neural-bg"></canvas>
+    
   <div id="page-container">
     
     <a name="home"><img src="G17_fd_GEOCOLOR_12fr_20211225-2327.jpg" width=100% height=auto/></a>
@@ -59,112 +62,120 @@
       }
     }
     </script>
+    
+    <div class="content-overlay">
         
-    <div style="text-align:center"><img id="umdimage" border="0" alt="UMD" src="UMD_CMNS_AOS_S1_Color_3.png"/></a></div>
-      
-      
-    <!-- RESEARCH SECTION -->
-    
-    <hr id="horzline">
-      
-    <!-- <p style="text-align:center"><a name="research" id="researchtitle"><span style="color:#d1192f">UMD</span> PARETO <span style="color:#d1192f">group</span></a></p> -->
-          
-    <div style="text-align:center"><img id="researchimage" border="0" alt="M" src="paretologo.png"/></a></div>
-              
-    <p id="researchtext">
-      Welcome! We focus on <span style="font-weight:bold">P</span>redictability and <span style="font-weight:bold">A</span>pplied <span style="font-weight:bold">R</span>esearch for the <span style="font-weight:bold">E</span>arth-system with <span style="font-weight:bold">T</span>raining and <span style="font-weight:bold">O</span>ptimization (PARETO). As such, we use machine learning (e.g., neural networks) and numerical modeling systems (e.g., CESM) to answer pressing questions and address challenges in modeling the Earth system. Examples of problems that we are tackling include:
-    </p>
-              
-    <div id="researchtext">&#9729; extending our understanding of Earth system predictability,</div>
-    <div id="researchtext">&#9729; parameterizing subgrid scale processes in Earth system models, and</div>
-    <div id="researchtext">&#9729; uncovering multi-scale and causal patterns in the climate system.</div>
-              
-    <p id="researchtext">Our research also strives to incorporate open-source software and data, accessible communication, and multi-discipline collaboration (particularly with computer science).
-    </p>
-    
-    <p id="researchtext">
-    Our group name, PARETO, is inspired by the Pareto frontier, a fundamental concept in optimization theory. The concept was named after the Italian economist Vilfredo Pareto (1848-1923) and delineates trade-offs between competing objectives.
-    </p>
-    
-    <!-- IMAGE -->
-    
-    
-    <div style="text-align:center"><img style="width:60%" border="2" alt="group-photo" src="IMG_pareto_fall2025.jpg"/></a></div>
-            
-    <p style="text-align:center;text-style:italic" id="publicationtext">
-    Fall 2025 group photo. Pictured from left to right: Assistant Professor Maria J. Molina, Sunny Sharma, Jon Starfeldt, Dean Calhoun, Kyle Hall, Jhayron S. Perez-Carrasquilla, Yamin Guo, and Emily Wisinski. Visiting Postdoctoral Fellow Manuel Titos not pictured. Learn more about our group <a href="group.html" style="color:#000000">[here]</a>.
-    </p>
-    
-    <p id="researchtext">
-    <em>If you are interested in joining our group as a graduate researcher, please note that all interested applicants must <a href="https://aosc.umd.edu/education/ms-phd/prospective-students/admissions" style="color:#000000">apply online</a> to be considered.</em>
-    </p>
-    
-    
-    <!-- NEWS SECTION -->
-    
-    <hr id="horzline">
-
-    <p id="newstext">
-    <span style="font-weight:bold">Recent News</span>
-    </p>
-    
-    <p id="newstext">
-    &#9729; [December] Our group will be attending the AGU Fall Meeting in New Orleans, LA. Our schedules have been announced:
-    <br>
-    - Jhayron’s poster, “A data-driven causal perspective on the origin of the 2021 Pacific Northwest heatwave,” is on Monday, 15 December at 14:15 - 17:45.
-    <br>
-    - Jonathan’s poster, “Urban Heat MiniCubes: An AI-Ready Dataset for Urban Heat Research and Applications”, is on Wednesday, 17 December at 08:30 - 12:00.
-    <br>
-    - Jhayron’s poster, “Observed and modeled amplification of the frequency, duration, and extreme heat impacts of the Pacific trough regime,” is on Friday, 19 December at 08:30 - 12:00.
-    <br>
-    </p>
-    
-    <p id="newstext">
-    &#9729; [November] Maria J. Molina participated as a Lecturer at the WCRP/APARC AI for Climate and Weather Forecasting Training School at the African Institute for Mathematical Sciences in M'Bour, Senegal. [<a href="https://sites.google.com/view/ai4climateschool" style="color:#000000">Link</a>]
-    </p>
-    
-    <p id="newstext">
-    &#9729; [October] Sunny Sharma will be continuing his graduate studies and pursuing a PhD degree in AOSC. We are so excited to keep learning with you!
-    </p>
-    
-    <p id="newstext">
-    More news available <a href="news.html" style="color:#000000">[here]</a>.
-    </p>
-    
-    <p id="newstext">
-    <span style="font-weight:bold">Recent Publications</span>
-    </p>
-    
-    <p id="newstext">
-    &#9729; <span style="font-weight:bold">*Pérez-Carrasquilla, J. S.</span>, <span style="font-weight:bold">M. J. Molina</span>, K. J. Mayer, K. Dagon, J. Fasullo, and I. R. Simpson (2025). Observed and modeled amplification of the frequency, duration, and extreme heat impacts of the Pacific trough regime. Earth's Future. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EF007140" style="color:#000000">[Link]</a>
-    </p>
-    
-    <p id="newstext">
-    &#9729; *Singh, A., A. M. Ring, D. J. Allen, <span style="font-weight:bold">M. J. Molina</span>, C. Nobles, R. R. Dickerson, R. J. Salawitch, and T. P. Canty (2025). Monitoring Exposure to Tropospheric Ozone Precursors: AQS Site Evaluation and Recommendation. Environmental Research Letters. <a href="https://iopscience.iop.org/article/10.1088/1748-9326/ae17da" style="color:#000000">[Link]</a>
-    </p>
-    
-    <p id="newstext">
-    &#9729; <span style="font-weight:bold">Molina, M. J.</span>, A. McGovern, <span style="font-weight:bold">*J. S. Pérez-Carrasquilla</span>, X. Li, and R. Tanamachi (2025). Using Generative Artificial Intelligence Creatively in the Classroom and Research: Examples and Lessons Learned. Bulletin of the American Meteorological Society. <a href="https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-24-0009.1/BAMS-D-24-0009.1.xml" style="color:#000000">[Link]</a>
-    </p>
-    
-    <p id="newstext">
-    More publications available <a href="publications.html" style="color:#000000">[here]</a>.
-    </p>
-    
-    <!-- END -->
-    
-    <hr id="horzline">
-    
-    <p style="text-align:center" id="publicationtext">
-    Any opinions, findings and conclusions or recommendations expressed herein do not necessarily reflect the views of the University of Maryland.
-    </p>
-            
-    <!-- <div style="text-align:center">
-    <a href="https://www.linkedin.com/in/sciencebymaria/" class="fa fa-linkedin" style="margin-bottom:10px;background-color:#000000"></a> <a href="https://www.facebook.com/ScienceByMaria" class="fa fa-facebook" style="margin-bottom:10px;background-color:#000000"></a> <a href="https://twitter.com/ScienceByMaria" class="fa fa-twitter" style="margin-bottom:10px;background-color:#000000"></a> <a href="https://www.instagram.com/sciencebymaria/" class="fa fa-instagram" style="margin-bottom:10px;background-color:#000000"></a>
-    </div> -->
-            
-    <div style="text-align:center">
-    <img id="mdimage" border="0" alt="MRG" src="1200px-Maryland_Terrapins_logo.png" style="margin-bottom:80px"/></a>
+        <!-- neural background script -->
+        <script src="neural-bg.js"></script>
+        
+        
+        <div style="text-align:center"><img id="umdimage" border="0" alt="UMD" src="UMD_CMNS_AOS_S1_Color_3.png"/></a></div>
+        
+        
+        <!-- RESEARCH SECTION -->
+        
+        <hr id="horzline">
+        
+        <!-- <p style="text-align:center"><a name="research" id="researchtitle"><span style="color:#d1192f">UMD</span> PARETO <span style="color:#d1192f">group</span></a></p> -->
+        
+        <div style="text-align:center"><img id="researchimage" border="0" alt="M" src="paretologo.png"/></a></div>
+        
+        <p id="researchtext">
+        Welcome! We focus on <span style="font-weight:bold">P</span>redictability and <span style="font-weight:bold">A</span>pplied <span style="font-weight:bold">R</span>esearch for the <span style="font-weight:bold">E</span>arth-system with <span style="font-weight:bold">T</span>raining and <span style="font-weight:bold">O</span>ptimization (PARETO). As such, we use machine learning (e.g., neural networks) and numerical modeling systems (e.g., CESM) to answer pressing questions and address challenges in modeling the Earth system. Examples of problems that we are tackling include:
+        </p>
+        
+        <div id="researchtext">&#9729; extending our understanding of Earth system predictability,</div>
+        <div id="researchtext">&#9729; parameterizing subgrid scale processes in Earth system models, and</div>
+        <div id="researchtext">&#9729; uncovering multi-scale and causal patterns in the climate system.</div>
+        
+        <p id="researchtext">Our research also strives to incorporate open-source software and data, accessible communication, and multi-discipline collaboration (particularly with computer science).
+        </p>
+        
+        <p id="researchtext">
+        Our group name, PARETO, is inspired by the Pareto frontier, a fundamental concept in optimization theory. The concept was named after the Italian economist Vilfredo Pareto (1848-1923) and delineates trade-offs between competing objectives.
+        </p>
+        
+        <!-- IMAGE -->
+        
+        
+        <div style="text-align:center"><img style="width:60%" border="2" alt="group-photo" src="IMG_pareto_fall2025.jpg"/></a></div>
+        
+        <p style="text-align:center;text-style:italic" id="publicationtext">
+        Fall 2025 group photo. Pictured from left to right: Assistant Professor Maria J. Molina, Sunny Sharma, Jon Starfeldt, Dean Calhoun, Kyle Hall, Jhayron S. Perez-Carrasquilla, Yamin Guo, and Emily Wisinski. Visiting Postdoctoral Fellow Manuel Titos not pictured. Learn more about our group <a href="group.html" style="color:#000000">[here]</a>.
+        </p>
+        
+        <p id="researchtext">
+        <em>If you are interested in joining our group as a graduate researcher, please note that all interested applicants must <a href="https://aosc.umd.edu/education/ms-phd/prospective-students/admissions" style="color:#000000">apply online</a> to be considered.</em>
+        </p>
+        
+        
+        <!-- NEWS SECTION -->
+        
+        <hr id="horzline">
+        
+        <p id="newstext">
+        <span style="font-weight:bold">Recent News</span>
+        </p>
+        
+        <p id="newstext">
+        &#9729; [December] Our group will be attending the AGU Fall Meeting in New Orleans, LA. Our schedules have been announced:
+        <br>
+        - Jhayron’s poster, “A data-driven causal perspective on the origin of the 2021 Pacific Northwest heatwave,” is on Monday, 15 December at 14:15 - 17:45.
+        <br>
+        - Jonathan’s poster, “Urban Heat MiniCubes: An AI-Ready Dataset for Urban Heat Research and Applications”, is on Wednesday, 17 December at 08:30 - 12:00.
+        <br>
+        - Jhayron’s poster, “Observed and modeled amplification of the frequency, duration, and extreme heat impacts of the Pacific trough regime,” is on Friday, 19 December at 08:30 - 12:00.
+        <br>
+        </p>
+        
+        <p id="newstext">
+        &#9729; [November] Maria J. Molina participated as a Lecturer at the WCRP/APARC AI for Climate and Weather Forecasting Training School at the African Institute for Mathematical Sciences in M'Bour, Senegal. [<a href="https://sites.google.com/view/ai4climateschool" style="color:#000000">Link</a>]
+        </p>
+        
+        <p id="newstext">
+        &#9729; [October] Sunny Sharma will be continuing his graduate studies and pursuing a PhD degree in AOSC. We are so excited to keep learning with you!
+        </p>
+        
+        <p id="newstext">
+        More news available <a href="news.html" style="color:#000000">[here]</a>.
+        </p>
+        
+        <p id="newstext">
+        <span style="font-weight:bold">Recent Publications</span>
+        </p>
+        
+        <p id="newstext">
+        &#9729; <span style="font-weight:bold">*Pérez-Carrasquilla, J. S.</span>, <span style="font-weight:bold">M. J. Molina</span>, K. J. Mayer, K. Dagon, J. Fasullo, and I. R. Simpson (2025). Observed and modeled amplification of the frequency, duration, and extreme heat impacts of the Pacific trough regime. Earth's Future. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EF007140" style="color:#000000">[Link]</a>
+        </p>
+        
+        <p id="newstext">
+        &#9729; *Singh, A., A. M. Ring, D. J. Allen, <span style="font-weight:bold">M. J. Molina</span>, C. Nobles, R. R. Dickerson, R. J. Salawitch, and T. P. Canty (2025). Monitoring Exposure to Tropospheric Ozone Precursors: AQS Site Evaluation and Recommendation. Environmental Research Letters. <a href="https://iopscience.iop.org/article/10.1088/1748-9326/ae17da" style="color:#000000">[Link]</a>
+        </p>
+        
+        <p id="newstext">
+        &#9729; <span style="font-weight:bold">Molina, M. J.</span>, A. McGovern, <span style="font-weight:bold">*J. S. Pérez-Carrasquilla</span>, X. Li, and R. Tanamachi (2025). Using Generative Artificial Intelligence Creatively in the Classroom and Research: Examples and Lessons Learned. Bulletin of the American Meteorological Society. <a href="https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-24-0009.1/BAMS-D-24-0009.1.xml" style="color:#000000">[Link]</a>
+        </p>
+        
+        <p id="newstext">
+        More publications available <a href="publications.html" style="color:#000000">[here]</a>.
+        </p>
+        
+        <!-- END -->
+        
+        <hr id="horzline">
+        
+        <p style="text-align:center" id="publicationtext">
+        Any opinions, findings and conclusions or recommendations expressed herein do not necessarily reflect the views of the University of Maryland.
+        </p>
+        
+        <!-- <div style="text-align:center">
+        <a href="https://www.linkedin.com/in/sciencebymaria/" class="fa fa-linkedin" style="margin-bottom:10px;background-color:#000000"></a> <a href="https://www.facebook.com/ScienceByMaria" class="fa fa-facebook" style="margin-bottom:10px;background-color:#000000"></a> <a href="https://twitter.com/ScienceByMaria" class="fa fa-twitter" style="margin-bottom:10px;background-color:#000000"></a> <a href="https://www.instagram.com/sciencebymaria/" class="fa fa-instagram" style="margin-bottom:10px;background-color:#000000"></a>
+        </div> -->
+        
+        <div style="text-align:center">
+            <img id="mdimage" border="0" alt="MRG" src="1200px-Maryland_Terrapins_logo.png" style="margin-bottom:80px"/></a>
+        </div>
+        
     </div>
           
     <footer id="footer" style="text-align:center"><p>Copyright &copy; 2022-<script>document.write(new Date().getFullYear())</script> Maria J. Molina.</p></footer>
