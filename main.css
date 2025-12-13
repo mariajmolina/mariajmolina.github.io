@@ -71,7 +71,7 @@ body {
 
 
 #horzline {
-    max-width:60%;
+    max-width:70%;
     text-align:center;
     height:1px;
     margin-bottom:30px
@@ -94,9 +94,10 @@ body {
   width: 80%;
   max-width: 90%;                 /* width of the “panel” */
   margin: 40px auto 80px auto;       /* center it, add top/bottom spacing */
-  padding: 40px 30px;                /* inner padding for text */
-  background: rgba(255, 255, 255, 0.85); /* white with transparency */
+  padding: 0;                /* inner padding for text */
+  background: rgba(255, 255, 255, 0.9); /* white with transparency */
   border-radius: 16px;               /* rounded corners (optional) */
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08); /* soft shadow (optional) */
   box-sizing: border-box;
 }
+
